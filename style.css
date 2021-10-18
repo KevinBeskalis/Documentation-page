@@ -1,0 +1,26 @@
+html, body {
+    scroll-padding: 30px 30px 0px 0px;
+}
+body {
+    display: flex;
+    flex-direction: row;
+}
+#navbar {
+    display: flex;
+    flex-direction: column;
+    width: 40em;
+    padding-right: 1em;
+    margin-top: 1em;
+}
+.nav-link {
+    margin-top: 2em;
+    padding-top: 1em;
+    border-top: 1px solid black;
+    padding-left: 0px;
+}
+@media only screen and (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+}
